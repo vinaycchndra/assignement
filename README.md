@@ -2,6 +2,7 @@
 # If one wants to remove an item from the invoice, the quantity should be set zero for that item and it will automatically get deleted.
 # New item can also be added in the update request those will also be added corresponding to the 'pk' for the invoice, however the description field is mandatory while adding a new item with update(Put) method.
 # This is one json format format for testing the APIs manully {
+    {
     "invoice_customer_name": "Vinay Chandra Joshi",
     "item_details": [
         {
